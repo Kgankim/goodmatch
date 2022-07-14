@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="/resources/js/jquery.min.js"></script>
+  <script src="/resources/js/common.js"></script>
+  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+  <script src="/resources/js/demo.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js" integrity="sha512-SGWgwwRA8xZgEoKiex3UubkSkV1zSE1BS6O4pXcaxcNtUlQsOmOmhVnDwIvqGRfEmuz83tIGL13cXMZn6upPyg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="/index.js"> </script>
+ <script type="text/javascript" src="/papa.js"> </script>
+ 
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derivco Master</title>
+</head>
+<body>
+<form id="Tennis">
+    <p><b>Enter two strings for an percentage of winning below </p></b>
+    <p> Player 1 : Name<input type="text" id="str1" type="text" onkeydown="validatetext()" value=""></input></p>
+    <p> Player 2 : Name<input type="text" id="str2" type="text" onkeydown="validatetext()" value=""></input></p>
+    <button id="btn1" onclick="add()"> Calculate</button>
+</form>
+  <hr>
+
+
+<form id="docuLoad">
+     <p><b>Attach a csv file below</p></b>
+     <input type="file" id="files" multiple>
+     <button id="submit" class="green" >Parse</button>
+    </form>
+
+<hr>
+
+ 
+    
+
+</body>
+</html>
